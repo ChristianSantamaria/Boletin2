@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boletin2_6;
+package boletin2_8;
 
 import javax.swing.JOptionPane;
 
@@ -11,19 +11,23 @@ import javax.swing.JOptionPane;
  *
  * @author csantamariacameselle
  */
-public class Boletin2_6 {
+public class Boletin2_8 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        double cent, cambio, fareh, kelvin ;
+        cambio = 1.8;
+        cent = Float.parseFloat(JOptionPane.showInputDialog("Escriba los grados centigrados: "));
+         
+        fareh = (cent * cambio) + 32;
+        kelvin = cent + 273;
         
-        float tarifa, pagado;
-        tarifa = Float.parseFloat(JOptionPane.showInputDialog("Tarifa: "));
-        pagado = Float.parseFloat(JOptionPane.showInputDialog("Precio pagado: "));
+        System.out.println("En Fahrenheit: "+ fareh );
+        System.out.println("En Kelvin: "+ kelvin );
         
-        System.out.println("El porcentaje es: "+ (tarifa - pagado)/tarifa * 100 + "%");
         
     }
     

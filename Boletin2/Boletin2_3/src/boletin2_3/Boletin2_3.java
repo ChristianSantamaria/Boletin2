@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boletin2_6;
+package boletin2_3;
 
 import javax.swing.JOptionPane;
 
@@ -11,20 +11,19 @@ import javax.swing.JOptionPane;
  *
  * @author csantamariacameselle
  */
-public class Boletin2_6 {
+public class Boletin2_3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        float tarifa, pagado;
-        tarifa = Float.parseFloat(JOptionPane.showInputDialog("Tarifa: "));
-        pagado = Float.parseFloat(JOptionPane.showInputDialog("Precio pagado: "));
-        
-        System.out.println("El porcentaje es: "+ (tarifa - pagado)/tarifa * 100 + "%");
-        
+        float cambio = 0;
+        float euros = 0;
+        cambio = Float.parseFloat(JOptionPane.showInputDialog("Cambio: "));
+        euros = Float.parseFloat(JOptionPane.showInputDialog("Euros: "));
+        float resultado = cambio * euros;
+        System.out.println("El resultado del cambio es "+resultado);
     }
     
 }

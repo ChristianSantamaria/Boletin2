@@ -23,7 +23,7 @@ public class Boletin2_6 {
         tarifa = Float.parseFloat(JOptionPane.showInputDialog("Tarifa: "));
         pagado = Float.parseFloat(JOptionPane.showInputDialog("Precio pagado: "));
         
-        System.out.println("El porcentaje es: "+ (tarifa - pagado)/tarifa * 100 + "%");
+        System.out.println("El porcentaje es: "+ (tarifa * 100)/pagado + "%");
         
     }
     
