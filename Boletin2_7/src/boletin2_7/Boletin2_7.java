@@ -26,7 +26,8 @@ public class Boletin2_7 {
         i = Double.parseDouble(JOptionPane.showInputDialog("Interes: "));
         t = Double.parseDouble(JOptionPane.showInputDialog("Años: "));
         
-       
+        t = t * 12;
+        i = i / 1200;
         
         resultado = (n*(Math.pow((1+i),t)*i))/((Math.pow((1+i),t)-1));
         
