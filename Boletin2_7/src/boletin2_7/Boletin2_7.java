@@ -19,7 +19,7 @@ public class Boletin2_7 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        double n, i, t,operacion, resultado;
+        double n, i, t,resultado;
        
         
         n = Double.parseDouble(JOptionPane.showInputDialog("Nominal: "));
