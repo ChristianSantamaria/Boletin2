@@ -18,14 +18,13 @@ public class Boletin2_8 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double cent, cambio, fareh, kelvin ;
-        cambio = 1.8;
+        double cent, cambio, fahre, kelvin ;
         cent = Float.parseFloat(JOptionPane.showInputDialog("Escriba los grados centigrados: "));
          
-        fareh = (cent * cambio) + 32;
+        fahre = (cent * 1.8) + 32;
         kelvin = cent + 273;
         
-        System.out.println("En Fahrenheit: "+ fareh );
+        System.out.println("En Fahrenheit: "+ fahre );
         System.out.println("En Kelvin: "+ kelvin );
         
         
