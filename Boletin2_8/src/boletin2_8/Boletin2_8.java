@@ -18,7 +18,7 @@ public class Boletin2_8 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double cent, cambio, fahre, kelvin ;
+        double cent, fahre, kelvin ;
         cent = Float.parseFloat(JOptionPane.showInputDialog("Escriba los grados centigrados: "));
          
         fahre = (cent * 1.8) + 32;
